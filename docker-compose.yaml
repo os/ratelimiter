@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  ratelimiter:
+    build:
+      context: .
+    volumes:
+      - .:/go/src/github.com/os/ratelimiter
+    ports:
+      - 8080:8080

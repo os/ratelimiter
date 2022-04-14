@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  ratelimiter:
+    build:
+      context: .
+      dockerfile: testing.Dockerfile
+    working_dir: /go/src/github.com/os/ratelimiter
+    volumes:
+      - .:/go/src/github.com/os/ratelimiter
