@@ -1,5 +1,7 @@
 # Rate Limiter
 
+A generic rate limiter implementation in Go.
+
 ## Design
 
 There are a few main concepts:
