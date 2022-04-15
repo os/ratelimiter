@@ -1,4 +1,4 @@
-FROM golang:1.15-buster AS builder
+FROM golang:1.18.1-buster AS builder
 WORKDIR /go/src/github.com/os/ratelimiter
 ADD . .
 RUN go install
